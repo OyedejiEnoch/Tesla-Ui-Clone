@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Gottham Book";
+    src: url("../public/GothamBook.ttf");
+}
+
+* {
+    font-family: "Gottham Book", "sans-serif";
+}
+
+@layer components {
+    .link {
+        @apply cursor-pointer font-semibold;
+    }
+}
